@@ -27,6 +27,7 @@
 		69E79CDF1C6495780066DFD4 /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CDE1C6495780066DFD4 /* ViewInterface.swift */; };
 		69E79CE11C6495D80066DFD4 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CE01C6495D80066DFD4 /* PresenterInterface.swift */; };
 		69E79CE31C6496170066DFD4 /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CE21C6496170066DFD4 /* InteractorInterface.swift */; };
+		69E79CE51C649E760066DFD4 /* AppDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CE41C649E760066DFD4 /* AppDefines.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		69E79CDE1C6495780066DFD4 /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
 		69E79CE01C6495D80066DFD4 /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
 		69E79CE21C6496170066DFD4 /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
+		69E79CE41C649E760066DFD4 /* AppDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefines.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				693BBE7F1C64878000532B9A /* AppDelegate.swift */,
+				69E79CE41C649E760066DFD4 /* AppDefines.swift */,
 			);
 			name = Application;
 			path = 00_Application;
@@ -467,6 +470,7 @@
 				69E79CE11C6495D80066DFD4 /* PresenterInterface.swift in Sources */,
 				693BBE801C64878000532B9A /* AppDelegate.swift in Sources */,
 				69E79CD21C6493100066DFD4 /* LoginWireframe.swift in Sources */,
+				69E79CE51C649E760066DFD4 /* AppDefines.swift in Sources */,
 				69E79CD91C6494C00066DFD4 /* LandingWireframe.swift in Sources */,
 				69E79CCE1C6492E30066DFD4 /* LoginInteractor.swift in Sources */,
 				69E79CD71C6494B40066DFD4 /* LandingPresenter.swift in Sources */,

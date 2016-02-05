@@ -13,10 +13,10 @@ import UIKit
 protocol WireframeInterface {
     
     // MARK: REQUIRED
+    var storyboard:UIStoryboard { get }
     weak var navigationController: UINavigationController? { get set }
     weak var viewController: UIViewController? { get set }
-    
-    func instantiateViewController() -> UIViewController
+
     func instantiateViewController<T>(context: T?) -> UIViewController
 }
 
@@ -25,7 +25,7 @@ extension WireframeInterface {
     
     // MARK: PUSH
     func pushViewController() {
-        navigationController?.pushViewController(instantiateViewController(), animated: true)
+        navigationController?.pushViewController(instantiateViewController(Any), animated: true)
     }
 
     func pushViewController<T>(context: T? = nil) {
@@ -39,7 +39,7 @@ extension WireframeInterface {
     
     // MARK: PRESENT
     func presentFromViewController(viewController: UIViewController) {
-        viewController.presentViewController(instantiateViewController(), animated: true, completion: nil)
+        viewController.presentViewController(instantiateViewController(Any), animated: true, completion: nil)
     }
 
     func presentFromViewController<T>(viewController: UIViewController, context: T?) {

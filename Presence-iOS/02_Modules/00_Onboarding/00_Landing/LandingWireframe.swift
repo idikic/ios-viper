@@ -14,13 +14,14 @@ class LandingWireframe: LandingWireframeInterface {
     // MARK: Base Wireframe Interface Requirements
     weak var navigationController: UINavigationController?
     weak var viewController: UIViewController?
-    
-    func instantiateViewController() -> UIViewController {
-        return UIViewController()
+
+    var storyboard:UIStoryboard {
+        return UIStoryboard.init(name: "Onboarding", bundle: nil)
     }
-    
+
     func instantiateViewController<T>(context: T?) -> UIViewController {
-        return UIViewController()
+        let landingViewController = storyboard.instantiateViewControllerWithIdentifier(LandingViewControllerIdentifier)
+        return landingViewController
     }
 
 }
