@@ -14,6 +14,19 @@
 		69E79CA41C648C700066DFD4 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E79CA31C648C700066DFD4 /* Onboarding.storyboard */; };
 		69E79CC41C648F1B0066DFD4 /* WireframeInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CC31C648F1B0066DFD4 /* WireframeInterface.swift */; };
 		69E79CC71C6490640066DFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E79CC51C6490640066DFD4 /* LaunchScreen.storyboard */; };
+		69E79CCA1C6492BF0066DFD4 /* LoginInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CC91C6492BF0066DFD4 /* LoginInterfaces.swift */; };
+		69E79CCC1C6492DA0066DFD4 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CCB1C6492DA0066DFD4 /* LoginPresenter.swift */; };
+		69E79CCE1C6492E30066DFD4 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CCD1C6492E30066DFD4 /* LoginInteractor.swift */; };
+		69E79CD01C6492FA0066DFD4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CCF1C6492FA0066DFD4 /* LoginViewController.swift */; };
+		69E79CD21C6493100066DFD4 /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CD11C6493100066DFD4 /* LoginWireframe.swift */; };
+		69E79CD51C6494A10066DFD4 /* LandingInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CD41C6494A10066DFD4 /* LandingInterfaces.swift */; };
+		69E79CD71C6494B40066DFD4 /* LandingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CD61C6494B40066DFD4 /* LandingPresenter.swift */; };
+		69E79CD91C6494C00066DFD4 /* LandingWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CD81C6494C00066DFD4 /* LandingWireframe.swift */; };
+		69E79CDB1C6494CA0066DFD4 /* LandingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CDA1C6494CA0066DFD4 /* LandingInteractor.swift */; };
+		69E79CDD1C6494DD0066DFD4 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CDC1C6494DD0066DFD4 /* LandingViewController.swift */; };
+		69E79CDF1C6495780066DFD4 /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CDE1C6495780066DFD4 /* ViewInterface.swift */; };
+		69E79CE11C6495D80066DFD4 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CE01C6495D80066DFD4 /* PresenterInterface.swift */; };
+		69E79CE31C6496170066DFD4 /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CE21C6496170066DFD4 /* InteractorInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		69E79CA31C648C700066DFD4 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		69E79CC31C648F1B0066DFD4 /* WireframeInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireframeInterface.swift; sourceTree = "<group>"; };
 		69E79CC61C6490640066DFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69E79CC91C6492BF0066DFD4 /* LoginInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInterfaces.swift; sourceTree = "<group>"; };
+		69E79CCB1C6492DA0066DFD4 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		69E79CCD1C6492E30066DFD4 /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		69E79CCF1C6492FA0066DFD4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		69E79CD11C6493100066DFD4 /* LoginWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
+		69E79CD41C6494A10066DFD4 /* LandingInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingInterfaces.swift; sourceTree = "<group>"; };
+		69E79CD61C6494B40066DFD4 /* LandingPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPresenter.swift; sourceTree = "<group>"; };
+		69E79CD81C6494C00066DFD4 /* LandingWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingWireframe.swift; sourceTree = "<group>"; };
+		69E79CDA1C6494CA0066DFD4 /* LandingInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingInteractor.swift; sourceTree = "<group>"; };
+		69E79CDC1C6494DD0066DFD4 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		69E79CDE1C6495780066DFD4 /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
+		69E79CE01C6495D80066DFD4 /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		69E79CE21C6496170066DFD4 /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				69E79CA31C648C700066DFD4 /* Onboarding.storyboard */,
+				69E79CD31C6494540066DFD4 /* Landing */,
+				69E79CC81C64927F0066DFD4 /* Login */,
 			);
 			name = Onboarding;
 			path = 00_Onboarding;
@@ -248,6 +276,7 @@
 		69E79CB91C648ECA0066DFD4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				69E79CDE1C6495780066DFD4 /* ViewInterface.swift */,
 			);
 			name = View;
 			path = 01_View;
@@ -256,6 +285,7 @@
 		69E79CBB1C648ECA0066DFD4 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				69E79CE01C6495D80066DFD4 /* PresenterInterface.swift */,
 			);
 			name = Presenter;
 			path = 02_Presenter;
@@ -264,9 +294,36 @@
 		69E79CBD1C648ECA0066DFD4 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				69E79CE21C6496170066DFD4 /* InteractorInterface.swift */,
 			);
 			name = Interactor;
 			path = 03_Interactor;
+			sourceTree = "<group>";
+		};
+		69E79CC81C64927F0066DFD4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				69E79CC91C6492BF0066DFD4 /* LoginInterfaces.swift */,
+				69E79CD11C6493100066DFD4 /* LoginWireframe.swift */,
+				69E79CCF1C6492FA0066DFD4 /* LoginViewController.swift */,
+				69E79CCB1C6492DA0066DFD4 /* LoginPresenter.swift */,
+				69E79CCD1C6492E30066DFD4 /* LoginInteractor.swift */,
+			);
+			name = Login;
+			path = 01_Login;
+			sourceTree = "<group>";
+		};
+		69E79CD31C6494540066DFD4 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				69E79CD41C6494A10066DFD4 /* LandingInterfaces.swift */,
+				69E79CD81C6494C00066DFD4 /* LandingWireframe.swift */,
+				69E79CDC1C6494DD0066DFD4 /* LandingViewController.swift */,
+				69E79CD61C6494B40066DFD4 /* LandingPresenter.swift */,
+				69E79CDA1C6494CA0066DFD4 /* LandingInteractor.swift */,
+			);
+			name = Landing;
+			path = 00_Landing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,8 +457,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E79CDB1C6494CA0066DFD4 /* LandingInteractor.swift in Sources */,
+				69E79CD01C6492FA0066DFD4 /* LoginViewController.swift in Sources */,
+				69E79CDF1C6495780066DFD4 /* ViewInterface.swift in Sources */,
+				69E79CCC1C6492DA0066DFD4 /* LoginPresenter.swift in Sources */,
 				69E79CC41C648F1B0066DFD4 /* WireframeInterface.swift in Sources */,
+				69E79CD51C6494A10066DFD4 /* LandingInterfaces.swift in Sources */,
+				69E79CE31C6496170066DFD4 /* InteractorInterface.swift in Sources */,
+				69E79CE11C6495D80066DFD4 /* PresenterInterface.swift in Sources */,
 				693BBE801C64878000532B9A /* AppDelegate.swift in Sources */,
+				69E79CD21C6493100066DFD4 /* LoginWireframe.swift in Sources */,
+				69E79CD91C6494C00066DFD4 /* LandingWireframe.swift in Sources */,
+				69E79CCE1C6492E30066DFD4 /* LoginInteractor.swift in Sources */,
+				69E79CD71C6494B40066DFD4 /* LandingPresenter.swift in Sources */,
+				69E79CDD1C6494DD0066DFD4 /* LandingViewController.swift in Sources */,
+				69E79CCA1C6492BF0066DFD4 /* LoginInterfaces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
