@@ -20,11 +20,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME TAB BAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVe-fs-B2E">
                                 <rect key="frame" x="239" y="289" width="122" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.34557311839999999" green="0.32941177490000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.13090815210000001" blue="0.13449349529999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="zVe-fs-B2E" firstAttribute="centerY" secondItem="Qj2-u9-bP9" secondAttribute="centerY" id="F2i-v6-u1c"/>
                             <constraint firstItem="zVe-fs-B2E" firstAttribute="centerX" secondItem="Qj2-u9-bP9" secondAttribute="centerX" id="kCH-D4-lr5"/>
