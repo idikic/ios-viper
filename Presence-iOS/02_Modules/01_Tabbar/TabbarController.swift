@@ -8,6 +8,15 @@
 
 import UIKit
 
-class TabbarController: UITabBarController {
+final class TabbarController: UITabBarController, TabbarViewInterface {
+    
+    // MARK: Landing view interface requirements
+    var presenter: TabbarViewDelegateInterface!
+
+    // MARK: View Lifecycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
 
 }

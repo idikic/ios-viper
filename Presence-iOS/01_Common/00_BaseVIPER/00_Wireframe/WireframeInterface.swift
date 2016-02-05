@@ -17,12 +17,21 @@ protocol WireframeInterface {
     weak var navigationController: UINavigationController? { get set }
     weak var viewController: UIViewController? { get set }
 
+    init()
+
     func instantiateViewController<T>(context: T?) -> UIViewController
+
 }
 
 // MARK: - Base Wireframe Interface Default Implementation -
 extension WireframeInterface {
-    
+
+    // MARK: CONVENIENCE INIT
+    init(navigationController: UINavigationController? = nil) {
+        self.init()
+        self.navigationController = navigationController
+    }
+
     // MARK: PUSH
     func pushViewController() {
         navigationController?.pushViewController(instantiateViewController(Any), animated: true)
