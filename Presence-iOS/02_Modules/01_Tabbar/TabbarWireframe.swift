@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
+// MARK: - Base Wireframe Interface Requirements -
 final class TabbarWireframe: TabbarWireframeInterface {
     
-    // MARK: Base Wireframe Interface Requirements
     weak var navigationController: UINavigationController?
     weak var viewController: UIViewController?
     
@@ -24,27 +24,36 @@ final class TabbarWireframe: TabbarWireframeInterface {
         SettingsWireframe()
     ]
 
-    func instantiateViewController<T>(context: T?) -> UIViewController {
+    internal func instantiateViewController<T>(context: T?) -> UIViewController {
 
         let tabbarController = storyboard.instantiateViewControllerWithIdentifier(TabbarControllerIdentifier) as! TabbarController
         let interactor = TabbarInteractor()
         let presenter = TabbarPresenter(wireframe: self, view: tabbarController, interactor: interactor)
+        
         tabbarController.presenter = presenter
-
-        tabbarController.viewControllers = _wireframes.map { (var wireframe) in
-            let navigationController = UINavigationController()
-            wireframe.navigationController = navigationController
-            return navigationController
-        }
-        _wireframes.forEach  { $0.pushViewController() }
+        tabbarController.viewControllers = _setupTabbarViewController()
 
         return tabbarController
+    }
+    
+}
+
+// MARK: - Helpers -
+extension TabbarWireframe {
+
+    private func _setupTabbarViewController() -> [UIViewController] {
+        return _wireframes.map { (var wireframe) in
+            let navigationController = UINavigationController()
+            wireframe.navigationController = navigationController
+            wireframe.pushViewController()
+            return navigationController
+        }
     }
 
 }
 
+// MARK: - Tabbar Wireframe Interface Requirements -
 extension TabbarWireframe {
     
-    // MARK: Tabbar Wireframe Interface Requirements
     
 }
