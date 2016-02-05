@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
+// MARK: - Base Wireframe Interface Requirements -
 final class SettingsWireframe: SettingsWireframeInterface {
     
-    // MARK: Base Wireframe Interface Requirements
     weak var navigationController: UINavigationController?
     weak var viewController: UIViewController?
     
@@ -29,8 +29,6 @@ final class SettingsWireframe: SettingsWireframeInterface {
 
 }
 
+// MARK: - Settings Wireframe Interface Requirements -
 extension SettingsWireframe {
-    
-    // MARK: Settings Wireframe Interface Requirements
-    
 }

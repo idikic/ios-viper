@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
+// MARK: - Base Wireframe Interface Requirements -
 final class HomeWireframe: HomeWireframeInterface {
 
-    // MARK: Base Wireframe Interface Requirements
     weak var navigationController: UINavigationController?
     weak var viewController: UIViewController?
 
@@ -29,8 +29,6 @@ final class HomeWireframe: HomeWireframeInterface {
     
 }
 
+// MARK: - Home Wireframe Interface Requirements -
 extension HomeWireframe {
-    
-    // MARK: Home Wireframe Interface Requirements
-    
 }

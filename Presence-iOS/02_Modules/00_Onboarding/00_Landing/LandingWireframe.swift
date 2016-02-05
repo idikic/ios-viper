@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
+// MARK: - Base Wireframe Interface Requirements -
 final class LandingWireframe: LandingWireframeInterface {
     
-    // MARK: Base Wireframe Interface Requirements
     weak var navigationController: UINavigationController?
     weak var viewController: UIViewController?
 
@@ -29,9 +29,9 @@ final class LandingWireframe: LandingWireframeInterface {
 
 }
 
+// MARK: - Landing Wireframe Interface Requirements -
 extension LandingWireframe {
 
-    // MARK: Landing Wireframe Interface Requirements
     func navigateToLoginScreen() {
 
         let loginWireframe = LoginWireframe()

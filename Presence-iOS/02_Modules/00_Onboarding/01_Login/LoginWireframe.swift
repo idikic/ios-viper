@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
+// MARK: - Base Wireframe Interface Requirements -
 final class LoginWireframe: LoginWireframeInterface {
     
-    // MARK: Base Wireframe Interface Requirements
     weak var navigationController: UINavigationController?
     weak var viewController: UIViewController?
     
@@ -29,9 +29,9 @@ final class LoginWireframe: LoginWireframeInterface {
 
 }
 
+// MARK: - Login Wireframe Interface Requirements -
 extension LoginWireframe {
     
-    // MARK: Login Wireframe Interface Requirements
     func navigateToHomeScreen() {
 
         let window = UIApplication.sharedApplication().windows.first!
