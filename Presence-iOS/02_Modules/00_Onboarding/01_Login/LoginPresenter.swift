@@ -25,4 +25,7 @@ final class LoginPresenter: LoginViewDelegateInterface {
 }
 
 extension LoginPresenter {
+    func didPressSignInButton() {
+        _wireframe.navigateToHomeScreen()
+    }
 }

@@ -32,5 +32,25 @@ final class LoginWireframe: LoginWireframeInterface {
 extension LoginWireframe {
     
     // MARK: Login Wireframe Interface Requirements
+    func navigateToHomeScreen() {
 
+        let window = UIApplication.sharedApplication().windows.first!
+        UIView.transitionWithView(window,
+            duration: 0.5,
+            options: UIViewAnimationOptions.TransitionFlipFromBottom,
+            animations: { () -> Void in
+
+                let rootNavigationController = UINavigationController()
+                let tabbarWireframe = TabbarWireframe()
+                
+                tabbarWireframe.navigationController = rootNavigationController
+                tabbarWireframe.pushViewController()
+                
+                window.rootViewController = rootNavigationController
+
+            },
+            completion: { _ in
+            
+            })
+    }
 }

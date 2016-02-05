@@ -10,6 +10,7 @@ import Foundation
 
 // MARK: - Landing Wireframe Interface -
 protocol LoginWireframeInterface: WireframeInterface {
+    func navigateToHomeScreen()
 }
 
 // MARK: - Landing View Interface -
@@ -23,6 +24,8 @@ protocol LoginViewDelegateInterface: PresenterInterface {
     var _wireframe: LoginWireframeInterface { get }
     unowned var _view: LoginViewInterface { get }
     var _interactor: LoginInteractorInterface? { get }
+    
+    func didPressSignInButton()
 }
 
 // MARK: - Landing Interactor Interface -

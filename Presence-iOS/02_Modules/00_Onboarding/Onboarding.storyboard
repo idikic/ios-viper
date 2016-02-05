@@ -62,6 +62,9 @@
                                 <rect key="frame" x="239" y="234" width="122" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Sign in ..."/>
+                                <connections>
+                                    <action selector="signInButtonActionHandler:" destination="kk5-m2-NFm" eventType="touchUpInside" id="xW2-DE-0E8"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nuH-cQ-ish">
                                 <rect key="frame" x="252" y="156" width="97" height="30"/>
