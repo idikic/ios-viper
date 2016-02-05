@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66FC35D3F638C8367A967EDC /* Pods_Presence_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2261FFDEB9C8578A8577A4 /* Pods_Presence_iOS.framework */; };
+		691C02411C64B7CE008846AA /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691C02401C64B7CE008846AA /* Tabbar.storyboard */; };
+		691C02431C64B7DB008846AA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691C02421C64B7DB008846AA /* Home.storyboard */; };
+		691C02451C64B7E4008846AA /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691C02441C64B7E4008846AA /* Settings.storyboard */; };
+		691C02471C64B97C008846AA /* TabbarInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C02461C64B97C008846AA /* TabbarInterfaces.swift */; };
+		691C02491C64B986008846AA /* TabbarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C02481C64B986008846AA /* TabbarPresenter.swift */; };
+		691C024B1C64B9A0008846AA /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C024A1C64B9A0008846AA /* TabbarController.swift */; };
+		691C024D1C64B9AB008846AA /* TabbarWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C024C1C64B9AB008846AA /* TabbarWireframe.swift */; };
+		691C024F1C64B9C2008846AA /* TabbarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C024E1C64B9C2008846AA /* TabbarInteractor.swift */; };
+		691C02531C64BA93008846AA /* HomeInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C02521C64BA93008846AA /* HomeInterfaces.swift */; };
+		691C02551C64BA9A008846AA /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C02541C64BA9A008846AA /* HomeWireframe.swift */; };
+		691C02571C64BAA2008846AA /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C02561C64BAA2008846AA /* HomePresenter.swift */; };
+		691C02591C64BAAB008846AA /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C02581C64BAAB008846AA /* HomeInteractor.swift */; };
+		691C025B1C64BABB008846AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C025A1C64BABB008846AA /* HomeViewController.swift */; };
+		691C025D1C64BAD1008846AA /* SettingsInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C025C1C64BAD1008846AA /* SettingsInterfaces.swift */; };
+		691C025F1C64BADD008846AA /* SettingsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C025E1C64BADD008846AA /* SettingsWireframe.swift */; };
+		691C02611C64BAE6008846AA /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C02601C64BAE6008846AA /* SettingsPresenter.swift */; };
+		691C02631C64BAF0008846AA /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C02621C64BAF0008846AA /* SettingsInteractor.swift */; };
+		691C02651C64BAFD008846AA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C02641C64BAFD008846AA /* SettingsViewController.swift */; };
 		693BBE801C64878000532B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693BBE7F1C64878000532B9A /* AppDelegate.swift */; };
 		693BBE871C64878000532B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 693BBE861C64878000532B9A /* Assets.xcassets */; };
 		693BBE951C64878000532B9A /* Presence_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693BBE941C64878000532B9A /* Presence_iOSTests.swift */; };
@@ -48,6 +67,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		146A6251EBFC95C699FEB454 /* Pods-Presence-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presence-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Presence-iOS/Pods-Presence-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		5B47C357048E08DAE7B1E6C6 /* Pods-Presence-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presence-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Presence-iOS/Pods-Presence-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		691C02401C64B7CE008846AA /* Tabbar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		691C02421C64B7DB008846AA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		691C02441C64B7E4008846AA /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		691C02461C64B97C008846AA /* TabbarInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarInterfaces.swift; sourceTree = "<group>"; };
+		691C02481C64B986008846AA /* TabbarPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarPresenter.swift; sourceTree = "<group>"; };
+		691C024A1C64B9A0008846AA /* TabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		691C024C1C64B9AB008846AA /* TabbarWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarWireframe.swift; sourceTree = "<group>"; };
+		691C024E1C64B9C2008846AA /* TabbarInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarInteractor.swift; sourceTree = "<group>"; };
+		691C02521C64BA93008846AA /* HomeInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInterfaces.swift; sourceTree = "<group>"; };
+		691C02541C64BA9A008846AA /* HomeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		691C02561C64BAA2008846AA /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		691C02581C64BAAB008846AA /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		691C025A1C64BABB008846AA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		691C025C1C64BAD1008846AA /* SettingsInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsInterfaces.swift; sourceTree = "<group>"; };
+		691C025E1C64BADD008846AA /* SettingsWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsWireframe.swift; sourceTree = "<group>"; };
+		691C02601C64BAE6008846AA /* SettingsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		691C02621C64BAF0008846AA /* SettingsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		691C02641C64BAFD008846AA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		693BBE7C1C64878000532B9A /* Presence-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Presence-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		693BBE7F1C64878000532B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		693BBE861C64878000532B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +114,7 @@
 		69E79CE01C6495D80066DFD4 /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
 		69E79CE21C6496170066DFD4 /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
 		69E79CE41C649E760066DFD4 /* AppDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefines.swift; sourceTree = "<group>"; };
+		EF2261FFDEB9C8578A8577A4 /* Pods_Presence_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Presence_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FC35D3F638C8367A967EDC /* Pods_Presence_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +143,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		691C023D1C64B78B008846AA /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				691C02401C64B7CE008846AA /* Tabbar.storyboard */,
+				691C02461C64B97C008846AA /* TabbarInterfaces.swift */,
+				691C024C1C64B9AB008846AA /* TabbarWireframe.swift */,
+				691C024A1C64B9A0008846AA /* TabbarController.swift */,
+				691C02481C64B986008846AA /* TabbarPresenter.swift */,
+				691C024E1C64B9C2008846AA /* TabbarInteractor.swift */,
+			);
+			name = Tabbar;
+			path = 01_Tabbar;
+			sourceTree = "<group>";
+		};
+		691C023E1C64B796008846AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				691C02421C64B7DB008846AA /* Home.storyboard */,
+				691C02501C64BA4E008846AA /* Home */,
+			);
+			name = Home;
+			path = 02_Home;
+			sourceTree = "<group>";
+		};
+		691C023F1C64B79C008846AA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				691C02441C64B7E4008846AA /* Settings.storyboard */,
+				691C02511C64BA6E008846AA /* Settings */,
+			);
+			name = Settings;
+			path = 03_Settings;
+			sourceTree = "<group>";
+		};
+		691C02501C64BA4E008846AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				691C02521C64BA93008846AA /* HomeInterfaces.swift */,
+				691C02541C64BA9A008846AA /* HomeWireframe.swift */,
+				691C025A1C64BABB008846AA /* HomeViewController.swift */,
+				691C02561C64BAA2008846AA /* HomePresenter.swift */,
+				691C02581C64BAAB008846AA /* HomeInteractor.swift */,
+			);
+			name = Home;
+			path = 00_Home;
+			sourceTree = "<group>";
+		};
+		691C02511C64BA6E008846AA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				691C025C1C64BAD1008846AA /* SettingsInterfaces.swift */,
+				691C025E1C64BADD008846AA /* SettingsWireframe.swift */,
+				691C02641C64BAFD008846AA /* SettingsViewController.swift */,
+				691C02601C64BAE6008846AA /* SettingsPresenter.swift */,
+				691C02621C64BAF0008846AA /* SettingsInteractor.swift */,
+			);
+			name = Settings;
+			path = 00_Settings;
+			sourceTree = "<group>";
+		};
 		693BBE731C64878000532B9A = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +210,8 @@
 				693BBE931C64878000532B9A /* Presence-iOSTests */,
 				693BBE9E1C64878000532B9A /* Presence-iOSUITests */,
 				693BBE7D1C64878000532B9A /* Products */,
+				D626A4D6F246BE0450C7EC42 /* Pods */,
+				CD9CD918EF4B2A5FC75A9522 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +259,9 @@
 			isa = PBXGroup;
 			children = (
 				69E79CA21C648C510066DFD4 /* Onboarding */,
+				691C023D1C64B78B008846AA /* Tabbar */,
+				691C023E1C64B796008846AA /* Home */,
+				691C023F1C64B79C008846AA /* Settings */,
 			);
 			name = Modules;
 			path = 02_Modules;
@@ -329,6 +435,23 @@
 			path = 00_Landing;
 			sourceTree = "<group>";
 		};
+		CD9CD918EF4B2A5FC75A9522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF2261FFDEB9C8578A8577A4 /* Pods_Presence_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D626A4D6F246BE0450C7EC42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B47C357048E08DAE7B1E6C6 /* Pods-Presence-iOS.debug.xcconfig */,
+				146A6251EBFC95C699FEB454 /* Pods-Presence-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -336,9 +459,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 693BBEA41C64878000532B9A /* Build configuration list for PBXNativeTarget "Presence-iOS" */;
 			buildPhases = (
+				147CAF8CA485A41230218ABF /* Check Pods Manifest.lock */,
 				693BBE781C64878000532B9A /* Sources */,
 				693BBE791C64878000532B9A /* Frameworks */,
 				693BBE7A1C64878000532B9A /* Resources */,
+				A74F8299D2502C7BA2D568A3 /* Embed Pods Frameworks */,
+				D2CFBB3B82E31AFF7FDDF733 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -433,7 +559,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691C02411C64B7CE008846AA /* Tabbar.storyboard in Resources */,
+				691C02431C64B7DB008846AA /* Home.storyboard in Resources */,
 				69E79CC71C6490640066DFD4 /* LaunchScreen.storyboard in Resources */,
+				691C02451C64B7E4008846AA /* Settings.storyboard in Resources */,
 				69E79CA41C648C700066DFD4 /* Onboarding.storyboard in Resources */,
 				693BBE871C64878000532B9A /* Assets.xcassets in Resources */,
 			);
@@ -455,6 +584,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		147CAF8CA485A41230218ABF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A74F8299D2502C7BA2D568A3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Presence-iOS/Pods-Presence-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2CFBB3B82E31AFF7FDDF733 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Presence-iOS/Pods-Presence-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		693BBE781C64878000532B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -462,16 +639,31 @@
 			files = (
 				69E79CDB1C6494CA0066DFD4 /* LandingInteractor.swift in Sources */,
 				69E79CD01C6492FA0066DFD4 /* LoginViewController.swift in Sources */,
+				691C025D1C64BAD1008846AA /* SettingsInterfaces.swift in Sources */,
 				69E79CDF1C6495780066DFD4 /* ViewInterface.swift in Sources */,
 				69E79CCC1C6492DA0066DFD4 /* LoginPresenter.swift in Sources */,
 				69E79CC41C648F1B0066DFD4 /* WireframeInterface.swift in Sources */,
 				69E79CD51C6494A10066DFD4 /* LandingInterfaces.swift in Sources */,
 				69E79CE31C6496170066DFD4 /* InteractorInterface.swift in Sources */,
+				691C02551C64BA9A008846AA /* HomeWireframe.swift in Sources */,
+				691C025F1C64BADD008846AA /* SettingsWireframe.swift in Sources */,
+				691C02591C64BAAB008846AA /* HomeInteractor.swift in Sources */,
+				691C02471C64B97C008846AA /* TabbarInterfaces.swift in Sources */,
+				691C02531C64BA93008846AA /* HomeInterfaces.swift in Sources */,
+				691C02611C64BAE6008846AA /* SettingsPresenter.swift in Sources */,
+				691C025B1C64BABB008846AA /* HomeViewController.swift in Sources */,
+				691C02491C64B986008846AA /* TabbarPresenter.swift in Sources */,
+				691C024F1C64B9C2008846AA /* TabbarInteractor.swift in Sources */,
 				69E79CE11C6495D80066DFD4 /* PresenterInterface.swift in Sources */,
+				691C024D1C64B9AB008846AA /* TabbarWireframe.swift in Sources */,
 				693BBE801C64878000532B9A /* AppDelegate.swift in Sources */,
+				691C02651C64BAFD008846AA /* SettingsViewController.swift in Sources */,
+				691C02571C64BAA2008846AA /* HomePresenter.swift in Sources */,
 				69E79CD21C6493100066DFD4 /* LoginWireframe.swift in Sources */,
 				69E79CE51C649E760066DFD4 /* AppDefines.swift in Sources */,
+				691C02631C64BAF0008846AA /* SettingsInteractor.swift in Sources */,
 				69E79CD91C6494C00066DFD4 /* LandingWireframe.swift in Sources */,
+				691C024B1C64B9A0008846AA /* TabbarController.swift in Sources */,
 				69E79CCE1C6492E30066DFD4 /* LoginInteractor.swift in Sources */,
 				69E79CD71C6494B40066DFD4 /* LandingPresenter.swift in Sources */,
 				69E79CDD1C6494DD0066DFD4 /* LandingViewController.swift in Sources */,
@@ -605,6 +797,7 @@
 		};
 		693BBEA51C64878000532B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B47C357048E08DAE7B1E6C6 /* Pods-Presence-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/Presence-iOS/Base.lproj/Info.plist";
@@ -616,6 +809,7 @@
 		};
 		693BBEA61C64878000532B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146A6251EBFC95C699FEB454 /* Pods-Presence-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/Presence-iOS/Base.lproj/Info.plist";
