@@ -8,3 +8,4 @@
 
 // MARK: - View Controller Identifier -
 let LandingViewControllerIdentifier = "LandingViewController"
+let LoginViewControllerIdentifier = "LoginViewController"

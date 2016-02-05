@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class LandingWireframe: LandingWireframeInterface {
+final class LandingWireframe: LandingWireframeInterface {
     
     // MARK: Base Wireframe Interface Requirements
     weak var navigationController: UINavigationController?
@@ -20,16 +20,24 @@ class LandingWireframe: LandingWireframeInterface {
     }
 
     func instantiateViewController<T>(context: T?) -> UIViewController {
-        let landingViewController = storyboard.instantiateViewControllerWithIdentifier(LandingViewControllerIdentifier)
+        let landingViewController = storyboard.instantiateViewControllerWithIdentifier(LandingViewControllerIdentifier) as! LandingViewController
+        let interactor = LandingInteractor()
+        let presenter = LandingPresenter(wireframe: self, view: landingViewController, interactor: interactor)
+        landingViewController.presenter = presenter
         return landingViewController
     }
 
 }
 
-extension LandingWireframeInterface {
-    
+extension LandingWireframe {
+
     // MARK: Landing Wireframe Interface Requirements
     func navigateToLoginScreen() {
 
+        let loginWireframe = LoginWireframe()
+        loginWireframe.navigationController = navigationController
+        loginWireframe.pushViewController()
+
     }
+
 }

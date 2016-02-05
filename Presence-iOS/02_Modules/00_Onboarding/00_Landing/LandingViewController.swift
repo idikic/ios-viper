@@ -8,11 +8,25 @@
 
 import UIKit
 
-class LandingViewController: UIViewController, ViewInterface {
+// MARK: - Landing View Controller -
+final class LandingViewController: UIViewController, LandingViewInterface {
 
+    // MARK: Landing view interface requirements
+    var presenter: LandingViewDelegateInterface!
+
+    // MARK: View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+
+}
+
+// MARK: - IBActions -
+extension LandingViewController {
+    
+    @IBAction func loginButtonActionHandler(sender: AnyObject) {
+        presenter.didPressLoginButton()
     }
 
 }

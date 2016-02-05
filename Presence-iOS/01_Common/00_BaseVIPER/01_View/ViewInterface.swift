@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 // MARK: - Base View Interface -
-protocol ViewInterface {
+protocol ViewInterface: class {
 
 }
 

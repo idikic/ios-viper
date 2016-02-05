@@ -7,3 +7,24 @@
 //
 
 import Foundation
+
+// MARK: - Landing Wireframe Interface -
+protocol LoginWireframeInterface: WireframeInterface {
+}
+
+// MARK: - Landing View Interface -
+protocol LoginViewInterface: ViewInterface {
+    var presenter: LoginViewDelegateInterface! { get set }
+}
+
+// MARK: - Landing View Delegate (Presenter) Interface -
+protocol LoginViewDelegateInterface: PresenterInterface {
+    
+    var _wireframe: LoginWireframeInterface { get }
+    unowned var _view: LoginViewInterface { get }
+    var _interactor: LoginInteractorInterface? { get }
+}
+
+// MARK: - Landing Interactor Interface -
+protocol LoginInteractorInterface: InteractorInterface {
+}
