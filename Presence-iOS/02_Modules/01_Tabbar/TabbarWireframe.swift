@@ -20,16 +20,23 @@ final class TabbarWireframe: TabbarWireframeInterface {
     }
     
     private lazy var _wireframes: [WireframeInterface] = [
-        HomeWireframe(navigationController: UINavigationController())
+        HomeWireframe(),
+        SettingsWireframe()
     ]
 
     func instantiateViewController<T>(context: T?) -> UIViewController {
+
         let tabbarController = storyboard.instantiateViewControllerWithIdentifier(TabbarControllerIdentifier) as! TabbarController
         let interactor = TabbarInteractor()
         let presenter = TabbarPresenter(wireframe: self, view: tabbarController, interactor: interactor)
-        
         tabbarController.presenter = presenter
-        tabbarController.viewControllers = _wireframes.flatMap { $0.navigationController }
+
+        tabbarController.viewControllers = _wireframes.map { (var wireframe) in
+            let navigationController = UINavigationController()
+            wireframe.navigationController = navigationController
+            return navigationController
+        }
+        _wireframes.forEach  { $0.pushViewController() }
 
         return tabbarController
     }

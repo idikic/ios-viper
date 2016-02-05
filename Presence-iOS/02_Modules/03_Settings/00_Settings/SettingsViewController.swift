@@ -8,6 +8,21 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+// MARK: - Settings View Controller -
+final class SettingsViewController: UIViewController, SettingsViewInterface {
+    
+    // MARK: Settings view interface requirements
+    var presenter: SettingsViewDelegateInterface!
+    
+    // MARK: View Lifecycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    
+}
 
+// MARK: - IBActions -
+extension SettingsViewController {
+    
 }
