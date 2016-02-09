@@ -33,12 +33,8 @@ extension WireframeInterface {
     }
 
     // MARK: PUSH
-    func pushViewController() {
-        navigationController?.pushViewController(instantiateViewController(), animated: true)
-    }
-
     func pushViewController<T>(context: T) {
-        navigationController?.pushViewController(instantiateViewController(T), animated: true)
+        navigationController?.pushViewController(instantiateViewController(context), animated: true)
     }
 
     // MARK: POP
@@ -47,12 +43,8 @@ extension WireframeInterface {
     }
     
     // MARK: PRESENT
-    func presentFromViewController(viewController: UIViewController) {
-        viewController.presentViewController(instantiateViewController(), animated: true, completion: nil)
-    }
-
     func presentFromViewController<T>(viewController: UIViewController, context: T) {
-        viewController.presentViewController(instantiateViewController(T), animated: true, completion: nil)
+        viewController.presentViewController(instantiateViewController(context), animated: true, completion: nil)
     }
 
     // MARK: DISMISS
