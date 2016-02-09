@@ -19,7 +19,7 @@ final class HomeWireframe: HomeWireframeInterface {
         return UIStoryboard.init(name: "Home", bundle: nil)
     }
 
-    func instantiateViewController<T>(context: T?) -> UIViewController {
+    func instantiateViewController<T>(context: T) -> UIViewController {
         let homeViewController = storyboard.instantiateViewControllerWithIdentifier(HomeViewControllerIdentifier) as! HomeViewController
         let interactor = HomeInteractor()
         let presenter = HomePresenter(wireframe: self, view: homeViewController, interactor: interactor)

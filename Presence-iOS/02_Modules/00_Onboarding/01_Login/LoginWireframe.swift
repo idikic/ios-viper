@@ -19,7 +19,7 @@ final class LoginWireframe: LoginWireframeInterface {
         return UIStoryboard.init(name: "Onboarding", bundle: nil)
     }
     
-    func instantiateViewController<T>(context: T?) -> UIViewController {
+    func instantiateViewController<T>(context: T) -> UIViewController {
         let loginViewController = storyboard.instantiateViewControllerWithIdentifier(LoginViewControllerIdentifier) as! LoginViewController
         let interactor = LoginInteractor()
         let presenter = LoginPresenter(wireframe: self, view: loginViewController, interactor: interactor)

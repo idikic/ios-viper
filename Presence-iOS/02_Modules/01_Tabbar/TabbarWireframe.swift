@@ -24,7 +24,7 @@ final class TabbarWireframe: TabbarWireframeInterface {
         SettingsWireframe()
     ]
 
-    internal func instantiateViewController<T>(context: T?) -> UIViewController {
+    internal func instantiateViewController<T>(context: T) -> UIViewController {
 
         let tabbarController = storyboard.instantiateViewControllerWithIdentifier(TabbarControllerIdentifier) as! TabbarController
         let interactor = TabbarInteractor()

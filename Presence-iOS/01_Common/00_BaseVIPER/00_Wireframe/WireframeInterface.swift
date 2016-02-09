@@ -19,7 +19,7 @@ protocol WireframeInterface {
 
     init()
 
-    func instantiateViewController<T>(context: T?) -> UIViewController
+    func instantiateViewController<T>(context: T) -> UIViewController
 
 }
 
@@ -34,10 +34,10 @@ extension WireframeInterface {
 
     // MARK: PUSH
     func pushViewController() {
-        navigationController?.pushViewController(instantiateViewController(Any), animated: true)
+        navigationController?.pushViewController(instantiateViewController(), animated: true)
     }
 
-    func pushViewController<T>(context: T? = nil) {
+    func pushViewController<T>(context: T) {
         navigationController?.pushViewController(instantiateViewController(T), animated: true)
     }
 
@@ -48,13 +48,13 @@ extension WireframeInterface {
     
     // MARK: PRESENT
     func presentFromViewController(viewController: UIViewController) {
-        viewController.presentViewController(instantiateViewController(Any), animated: true, completion: nil)
+        viewController.presentViewController(instantiateViewController(), animated: true, completion: nil)
     }
 
-    func presentFromViewController<T>(viewController: UIViewController, context: T?) {
+    func presentFromViewController<T>(viewController: UIViewController, context: T) {
         viewController.presentViewController(instantiateViewController(T), animated: true, completion: nil)
     }
-    
+
     // MARK: DISMISS
     func dismissViewController() {
         viewController?.dismissViewControllerAnimated(true, completion: nil)
