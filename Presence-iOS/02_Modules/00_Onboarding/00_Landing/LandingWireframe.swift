@@ -36,7 +36,7 @@ extension LandingWireframe {
 
         let loginWireframe = LoginWireframe()
         loginWireframe.navigationController = navigationController
-        loginWireframe.pushViewController()
+        loginWireframe.pushOnNavigationController()
 
     }
 

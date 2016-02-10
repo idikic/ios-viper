@@ -33,12 +33,12 @@ extension WireframeInterface {
     }
 
     // MARK: PUSH
-    func pushViewController<T>(context: T) {
+    func pushOnNavigationController<T>(context: T) {
         navigationController?.pushViewController(instantiateViewController(context), animated: true)
     }
 
     // MARK: POP
-    func popViewController() {
+    func popFromNavigationController() {
         navigationController?.popViewControllerAnimated(true)
     }
     

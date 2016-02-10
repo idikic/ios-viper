@@ -44,7 +44,7 @@ extension LoginWireframe {
                 let tabbarWireframe = TabbarWireframe()
                 
                 tabbarWireframe.navigationController = rootNavigationController
-                tabbarWireframe.pushViewController()
+                tabbarWireframe.pushOnNavigationController()
                 
                 window.rootViewController = rootNavigationController
 

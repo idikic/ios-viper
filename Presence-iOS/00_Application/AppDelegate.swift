@@ -33,7 +33,7 @@ extension AppDelegate {
         let landingWireframe = LandingWireframe()
 
         landingWireframe.navigationController = rootNavigationController
-        landingWireframe.pushViewController()
+        landingWireframe.pushOnNavigationController()
 
         window?.rootViewController = rootNavigationController
         window?.makeKeyAndVisible()

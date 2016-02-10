@@ -45,7 +45,7 @@ extension TabbarWireframe {
         return _wireframes.map { (var wireframe) in
             let navigationController = UINavigationController()
             wireframe.navigationController = navigationController
-            wireframe.pushViewController()
+            wireframe.pushOnNavigationController()
             return navigationController
         }
     }
