@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 // MARK: - Base Wireframe Interface -
-protocol WireframeInterface {
+protocol WireframeInterface: class {
     
     // MARK: REQUIRED
     var storyboard:UIStoryboard { get }
@@ -19,7 +19,7 @@ protocol WireframeInterface {
 
     init()
 
-    func instantiateViewController<T>(context: T) -> UIViewController
+    func instantiateViewController<T>(_ context: T) -> UIViewController
 
 }
 
@@ -33,22 +33,22 @@ extension WireframeInterface {
     }
 
     // MARK: PUSH
-    func pushOnNavigationController<T>(context: T) {
+    func pushOnNavigationController<T>(_ context: T) {
         navigationController?.pushViewController(instantiateViewController(context), animated: true)
     }
 
     // MARK: POP
     func popFromNavigationController() {
-        navigationController?.popViewControllerAnimated(true)
+        _ = navigationController?.popViewController(animated: true)
     }
     
     // MARK: PRESENT
-    func presentFromViewController<T>(viewController: UIViewController, context: T) {
-        viewController.presentViewController(instantiateViewController(context), animated: true, completion: nil)
+    func presentFromViewController<T>(_ viewController: UIViewController, context: T) {
+        viewController.present(instantiateViewController(context), animated: true, completion: nil)
     }
 
     // MARK: DISMISS
     func dismissViewController() {
-        viewController?.dismissViewControllerAnimated(true, completion: nil)
+        viewController?.dismiss(animated: true, completion: nil)
     }
 }

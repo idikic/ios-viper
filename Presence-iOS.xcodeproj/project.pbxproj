@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66FC35D3F638C8367A967EDC /* Pods_Presence_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2261FFDEB9C8578A8577A4 /* Pods_Presence_iOS.framework */; };
+		20A789CF80A4529411ADFB38 /* Pods_Presence_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECA4DFBB948787E0CB6C0FD /* Pods_Presence_iOS.framework */; };
 		691C02411C64B7CE008846AA /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691C02401C64B7CE008846AA /* Tabbar.storyboard */; };
 		691C02431C64B7DB008846AA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691C02421C64B7DB008846AA /* Home.storyboard */; };
 		691C02451C64B7E4008846AA /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691C02441C64B7E4008846AA /* Settings.storyboard */; };
@@ -47,6 +47,8 @@
 		69E79CE11C6495D80066DFD4 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CE01C6495D80066DFD4 /* PresenterInterface.swift */; };
 		69E79CE31C6496170066DFD4 /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CE21C6496170066DFD4 /* InteractorInterface.swift */; };
 		69E79CE51C649E760066DFD4 /* AppDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E79CE41C649E760066DFD4 /* AppDefines.swift */; };
+		91733B29F6F8903BA5EAB463 /* Pods_Presence_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356B69D4A93CD2CD2A4FC350 /* Pods_Presence_iOSUITests.framework */; };
+		D8ED5A5B7F2D997F7535C768 /* Pods_Presence_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525BC0F7CD9EA775F6EA1F0E /* Pods_Presence_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +69,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		146A6251EBFC95C699FEB454 /* Pods-Presence-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presence-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Presence-iOS/Pods-Presence-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		5B47C357048E08DAE7B1E6C6 /* Pods-Presence-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presence-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Presence-iOS/Pods-Presence-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		00354537E5EF61C389D7C334 /* Pods-Presence-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presence-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Presence-iOSUITests/Pods-Presence-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		356B69D4A93CD2CD2A4FC350 /* Pods_Presence_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Presence_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF1F2D6799987C727600385 /* Pods-Presence-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presence-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Presence-iOS/Pods-Presence-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4C46EB3AD9A5A22967C31A75 /* Pods-Presence-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presence-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Presence-iOSTests/Pods-Presence-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		525BC0F7CD9EA775F6EA1F0E /* Pods_Presence_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Presence_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6105817F8AADB48C7F9F217F /* Pods-Presence-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presence-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Presence-iOS/Pods-Presence-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		691C02401C64B7CE008846AA /* Tabbar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
 		691C02421C64B7DB008846AA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		691C02441C64B7E4008846AA /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
@@ -114,7 +120,9 @@
 		69E79CE01C6495D80066DFD4 /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
 		69E79CE21C6496170066DFD4 /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
 		69E79CE41C649E760066DFD4 /* AppDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefines.swift; sourceTree = "<group>"; };
-		EF2261FFDEB9C8578A8577A4 /* Pods_Presence_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Presence_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		747FDD200DFFC80DA28469AD /* Pods-Presence-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presence-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Presence-iOSTests/Pods-Presence-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A734483815DE60540B9541D /* Pods-Presence-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presence-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Presence-iOSUITests/Pods-Presence-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DECA4DFBB948787E0CB6C0FD /* Pods_Presence_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Presence_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66FC35D3F638C8367A967EDC /* Pods_Presence_iOS.framework in Frameworks */,
+				20A789CF80A4529411ADFB38 /* Pods_Presence_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8ED5A5B7F2D997F7535C768 /* Pods_Presence_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +146,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91733B29F6F8903BA5EAB463 /* Pods_Presence_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11BEB0625B77AA6F96338A69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6105817F8AADB48C7F9F217F /* Pods-Presence-iOS.debug.xcconfig */,
+				3DF1F2D6799987C727600385 /* Pods-Presence-iOS.release.xcconfig */,
+				747FDD200DFFC80DA28469AD /* Pods-Presence-iOSTests.debug.xcconfig */,
+				4C46EB3AD9A5A22967C31A75 /* Pods-Presence-iOSTests.release.xcconfig */,
+				00354537E5EF61C389D7C334 /* Pods-Presence-iOSUITests.debug.xcconfig */,
+				7A734483815DE60540B9541D /* Pods-Presence-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		691C023D1C64B78B008846AA /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,8 +233,8 @@
 				693BBE931C64878000532B9A /* Presence-iOSTests */,
 				693BBE9E1C64878000532B9A /* Presence-iOSUITests */,
 				693BBE7D1C64878000532B9A /* Products */,
-				D626A4D6F246BE0450C7EC42 /* Pods */,
-				CD9CD918EF4B2A5FC75A9522 /* Frameworks */,
+				11BEB0625B77AA6F96338A69 /* Pods */,
+				E2B8ED18D2BE39C450909ABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -435,21 +458,14 @@
 			path = 00_Landing;
 			sourceTree = "<group>";
 		};
-		CD9CD918EF4B2A5FC75A9522 /* Frameworks */ = {
+		E2B8ED18D2BE39C450909ABC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF2261FFDEB9C8578A8577A4 /* Pods_Presence_iOS.framework */,
+				DECA4DFBB948787E0CB6C0FD /* Pods_Presence_iOS.framework */,
+				525BC0F7CD9EA775F6EA1F0E /* Pods_Presence_iOSTests.framework */,
+				356B69D4A93CD2CD2A4FC350 /* Pods_Presence_iOSUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D626A4D6F246BE0450C7EC42 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B47C357048E08DAE7B1E6C6 /* Pods-Presence-iOS.debug.xcconfig */,
-				146A6251EBFC95C699FEB454 /* Pods-Presence-iOS.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,12 +475,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 693BBEA41C64878000532B9A /* Build configuration list for PBXNativeTarget "Presence-iOS" */;
 			buildPhases = (
-				147CAF8CA485A41230218ABF /* Check Pods Manifest.lock */,
+				5D4230DDDBF1FB14729B0AAB /* [CP] Check Pods Manifest.lock */,
 				693BBE781C64878000532B9A /* Sources */,
 				693BBE791C64878000532B9A /* Frameworks */,
 				693BBE7A1C64878000532B9A /* Resources */,
-				A74F8299D2502C7BA2D568A3 /* Embed Pods Frameworks */,
-				D2CFBB3B82E31AFF7FDDF733 /* Copy Pods Resources */,
+				B2B39E71B5311F4B5BE5EC1A /* [CP] Embed Pods Frameworks */,
+				F428BA4FC2B9EE267B687295 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -479,9 +495,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 693BBEA71C64878000532B9A /* Build configuration list for PBXNativeTarget "Presence-iOSTests" */;
 			buildPhases = (
+				EECCE5652C1F3D57BF616834 /* [CP] Check Pods Manifest.lock */,
 				693BBE8C1C64878000532B9A /* Sources */,
 				693BBE8D1C64878000532B9A /* Frameworks */,
 				693BBE8E1C64878000532B9A /* Resources */,
+				4389E0371165D1A42B4201D6 /* [CP] Embed Pods Frameworks */,
+				E751156BF630D76867FF763E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -497,9 +516,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 693BBEAA1C64878000532B9A /* Build configuration list for PBXNativeTarget "Presence-iOSUITests" */;
 			buildPhases = (
+				2DCD2F3C105F6B0125EE2581 /* [CP] Check Pods Manifest.lock */,
 				693BBE971C64878000532B9A /* Sources */,
 				693BBE981C64878000532B9A /* Frameworks */,
 				693BBE991C64878000532B9A /* Resources */,
+				7CC594CDC4752D82E11C89DB /* [CP] Embed Pods Frameworks */,
+				7371018ACED8A86274F70D1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -518,18 +540,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Infinum;
 				TargetAttributes = {
 					693BBE7B1C64878000532B9A = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8JY2ZC88K5;
+						LastSwiftMigration = 0820;
 					};
 					693BBE8F1C64878000532B9A = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 693BBE7B1C64878000532B9A;
 					};
 					693BBE9A1C64878000532B9A = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 693BBE7B1C64878000532B9A;
 					};
 				};
@@ -585,29 +611,89 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		147CAF8CA485A41230218ABF /* Check Pods Manifest.lock */ = {
+		2DCD2F3C105F6B0125EE2581 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A74F8299D2502C7BA2D568A3 /* Embed Pods Frameworks */ = {
+		4389E0371165D1A42B4201D6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Presence-iOSTests/Pods-Presence-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D4230DDDBF1FB14729B0AAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7371018ACED8A86274F70D1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Presence-iOSUITests/Pods-Presence-iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC594CDC4752D82E11C89DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Presence-iOSUITests/Pods-Presence-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B39E71B5311F4B5BE5EC1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,14 +701,44 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Presence-iOS/Pods-Presence-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D2CFBB3B82E31AFF7FDDF733 /* Copy Pods Resources */ = {
+		E751156BF630D76867FF763E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Presence-iOSTests/Pods-Presence-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EECCE5652C1F3D57BF616834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F428BA4FC2B9EE267B687295 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -727,8 +843,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -771,8 +889,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -791,65 +911,76 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		693BBEA51C64878000532B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B47C357048E08DAE7B1E6C6 /* Pods-Presence-iOS.debug.xcconfig */;
+			baseConfigurationReference = 6105817F8AADB48C7F9F217F /* Pods-Presence-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8JY2ZC88K5;
 				INFOPLIST_FILE = "$(SRCROOT)/Presence-iOS/Base.lproj/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.infinum.Presence-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		693BBEA61C64878000532B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 146A6251EBFC95C699FEB454 /* Pods-Presence-iOS.release.xcconfig */;
+			baseConfigurationReference = 3DF1F2D6799987C727600385 /* Pods-Presence-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8JY2ZC88K5;
 				INFOPLIST_FILE = "$(SRCROOT)/Presence-iOS/Base.lproj/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.infinum.Presence-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		693BBEA81C64878000532B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747FDD200DFFC80DA28469AD /* Pods-Presence-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Presence-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.infinum.Presence-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Presence-iOS.app/Presence-iOS";
 			};
 			name = Debug;
 		};
 		693BBEA91C64878000532B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C46EB3AD9A5A22967C31A75 /* Pods-Presence-iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Presence-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.infinum.Presence-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Presence-iOS.app/Presence-iOS";
 			};
 			name = Release;
 		};
 		693BBEAB1C64878000532B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00354537E5EF61C389D7C334 /* Pods-Presence-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Presence-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.infinum.Presence-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Presence-iOS";
 				USES_XCTRUNNER = YES;
 			};
@@ -857,11 +988,13 @@
 		};
 		693BBEAC1C64878000532B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A734483815DE60540B9541D /* Pods-Presence-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Presence-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.infinum.Presence-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Presence-iOS";
 				USES_XCTRUNNER = YES;
 			};

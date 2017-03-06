@@ -19,8 +19,8 @@ final class LandingWireframe: LandingWireframeInterface {
         return UIStoryboard.init(name: "Onboarding", bundle: nil)
     }
 
-    func instantiateViewController<T>(context: T) -> UIViewController {
-        let landingViewController = storyboard.instantiateViewControllerWithIdentifier(LandingViewControllerIdentifier) as! LandingViewController
+    func instantiateViewController<T>(_ context: T) -> UIViewController {
+        let landingViewController = storyboard.instantiateViewController(withIdentifier: LandingViewControllerIdentifier) as! LandingViewController
         let interactor = LandingInteractor()
         let presenter = LandingPresenter(wireframe: self, view: landingViewController, interactor: interactor)
         landingViewController.presenter = presenter

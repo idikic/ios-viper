@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Landing View Controller-->
@@ -14,11 +18,11 @@
                         <viewControllerLayoutGuide type="bottom" id="ITH-HX-alq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hsL-iK-4Dr">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZO-wE-5RW">
-                                <rect key="frame" x="242" y="270" width="117" height="60"/>
+                                <rect key="frame" x="129" y="303.5" width="117" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="LOGIN"/>
                                 <connections>
@@ -26,7 +30,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="1" blue="0.0073756167760000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0073756167760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XZO-wE-5RW" firstAttribute="centerY" secondItem="hsL-iK-4Dr" secondAttribute="centerY" id="Ee1-FJ-wqc"/>
                             <constraint firstItem="XZO-wE-5RW" firstAttribute="centerX" secondItem="hsL-iK-4Dr" secondAttribute="centerX" id="aAa-w2-S48"/>
@@ -47,11 +51,11 @@
                         <viewControllerLayoutGuide type="bottom" id="g1R-ak-msF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KUg-lZ-Jz9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uH4-wm-BQG">
-                                <rect key="frame" x="252" y="118" width="97" height="30"/>
+                                <rect key="frame" x="139" y="118" width="97" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="JV5-LB-jCT"/>
                                 </constraints>
@@ -59,7 +63,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFj-M6-fiA">
-                                <rect key="frame" x="239" y="234" width="122" height="48"/>
+                                <rect key="frame" x="126.5" y="234" width="122" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Sign in ..."/>
                                 <connections>
@@ -67,7 +71,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nuH-cQ-ish">
-                                <rect key="frame" x="252" y="156" width="97" height="30"/>
+                                <rect key="frame" x="139" y="156" width="97" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="yPM-c2-Avq"/>
                                 </constraints>
@@ -75,7 +79,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.22352941179999999" green="0.2666666667" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.22352941179999999" green="0.2666666667" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nuH-cQ-ish" firstAttribute="top" secondItem="uH4-wm-BQG" secondAttribute="bottom" constant="8" id="0to-WI-noS"/>
                             <constraint firstItem="DFj-M6-fiA" firstAttribute="top" secondItem="nuH-cQ-ish" secondAttribute="bottom" constant="48" id="QUe-Nk-7at"/>
