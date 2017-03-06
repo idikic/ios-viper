@@ -25,7 +25,7 @@ final class LandingViewController: UIViewController, LandingViewInterface {
 // MARK: - IBActions -
 extension LandingViewController {
     
-    @IBAction func loginButtonActionHandler(sender: AnyObject) {
+    @IBAction func loginButtonActionHandler(_ sender: AnyObject) {
         presenter.didPressLoginButton()
     }
 

@@ -12,8 +12,8 @@ end
 target 'Presence-iOS' do
 
 # Networking
-pod 'Alamofire', '~> 3.0'
-pod 'ReachabilitySwift', git: 'https://github.com/ashleymills/Reachability.swift'
+pod 'Alamofire', '~> 4.4'
+pod 'ReachabilitySwift', '~> 3'
 
 # Custom navigation
 pod 'AHKNavigationController'

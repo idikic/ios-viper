@@ -24,7 +24,7 @@ final class LoginViewController: UIViewController, LoginViewInterface {
 // MARK: - IBActions -
 extension LoginViewController {
     
-    @IBAction func signInButtonActionHandler(sender: AnyObject) {
+    @IBAction func signInButtonActionHandler(_ sender: AnyObject) {
         presenter.didPressSignInButton()
     }
 

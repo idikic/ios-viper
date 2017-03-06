@@ -1,0 +1,6 @@
+framework module Pods_Presence_iOSUITests {
+  umbrella header "Pods-Presence-iOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

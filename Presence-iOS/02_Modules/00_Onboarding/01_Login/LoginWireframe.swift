@@ -19,8 +19,8 @@ final class LoginWireframe: LoginWireframeInterface {
         return UIStoryboard.init(name: "Onboarding", bundle: nil)
     }
     
-    func instantiateViewController<T>(context: T) -> UIViewController {
-        let loginViewController = storyboard.instantiateViewControllerWithIdentifier(LoginViewControllerIdentifier) as! LoginViewController
+    func instantiateViewController<T>(_ context: T) -> UIViewController {
+        let loginViewController = storyboard.instantiateViewController(withIdentifier: LoginViewControllerIdentifier) as! LoginViewController
         let interactor = LoginInteractor()
         let presenter = LoginPresenter(wireframe: self, view: loginViewController, interactor: interactor)
         loginViewController.presenter = presenter
@@ -34,10 +34,10 @@ extension LoginWireframe {
     
     func navigateToHomeScreen() {
 
-        let window = UIApplication.sharedApplication().windows.first!
-        UIView.transitionWithView(window,
+        let window = UIApplication.shared.windows.first!
+        UIView.transition(with: window,
             duration: 0.5,
-            options: UIViewAnimationOptions.TransitionFlipFromBottom,
+            options: UIViewAnimationOptions.transitionFlipFromBottom,
             animations: { () -> Void in
 
                 let rootNavigationController = UINavigationController()

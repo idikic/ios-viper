@@ -19,14 +19,14 @@ final class TabbarWireframe: TabbarWireframeInterface {
         return UIStoryboard.init(name: "Tabbar", bundle: nil)
     }
     
-    private lazy var _wireframes: [WireframeInterface] = [
+    fileprivate lazy var _wireframes: [WireframeInterface] = [
         HomeWireframe(),
         SettingsWireframe()
     ]
 
-    internal func instantiateViewController<T>(context: T) -> UIViewController {
+    internal func instantiateViewController<T>(_ context: T) -> UIViewController {
 
-        let tabbarController = storyboard.instantiateViewControllerWithIdentifier(TabbarControllerIdentifier) as! TabbarController
+        let tabbarController = storyboard.instantiateViewController(withIdentifier: TabbarControllerIdentifier) as! TabbarController
         let interactor = TabbarInteractor()
         let presenter = TabbarPresenter(wireframe: self, view: tabbarController, interactor: interactor)
         
@@ -41,8 +41,8 @@ final class TabbarWireframe: TabbarWireframeInterface {
 // MARK: - Helpers -
 extension TabbarWireframe {
 
-    private func _setupTabbarViewController() -> [UIViewController] {
-        return _wireframes.map { (var wireframe) in
+    fileprivate func _setupTabbarViewController() -> [UIViewController] {
+        return _wireframes.map { wireframe in
             let navigationController = UINavigationController()
             wireframe.navigationController = navigationController
             wireframe.pushOnNavigationController()

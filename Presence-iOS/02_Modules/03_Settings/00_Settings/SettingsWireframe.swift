@@ -19,8 +19,8 @@ final class SettingsWireframe: SettingsWireframeInterface {
         return UIStoryboard.init(name: "Settings", bundle: nil)
     }
     
-    func instantiateViewController<T>(context: T) -> UIViewController {
-        let settingsViewController = storyboard.instantiateViewControllerWithIdentifier(SettingsViewControllerIdentifier) as! SettingsViewController
+    func instantiateViewController<T>(_ context: T) -> UIViewController {
+        let settingsViewController = storyboard.instantiateViewController(withIdentifier: SettingsViewControllerIdentifier) as! SettingsViewController
         let interactor = SettingsInteractor()
         let presenter = SettingsPresenter(wireframe: self, view: settingsViewController, interactor: interactor)
         settingsViewController.presenter = presenter
